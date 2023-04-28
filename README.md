@@ -19,3 +19,5 @@ Para iniciar el juego, el jugador debe hacer clic en una de las tres opciones di
 - HTML
 - CSS
 - JavaScript
+
+## A quien sea que este leyendo esto, le deseo un muy buen día!
