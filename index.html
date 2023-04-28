@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Piedra, Papel o Tijera</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <header class="game-title-container">
+      <h1 class="game-title">Piedra, Papel o Tijera</h1>
+    </header>
+
+    <main class="game-container">
+
+      <div class="player-container">
+        <div class="player-container-title">
+          <h2 class="player-title">Tu</h2>
+          <h3 class="select-option-text">Selecciona una opcion</h3>
+        </div>
+        <img class="player-choice" id="paper" src="./files/Paper.png" alt="Papel-Image" />
+        <img class="player-choice" id="rock" src="./files/Rock.png" alt="Rock-Image" />
+        <img class="player-choice" id="scissors" src="./files/Scissors.png" alt="Scissors-Image" />
+      </div>
+
+      <div style="display: none" class="final-choice-player">
+        <img class="final-choice-player-img" src="" alt="" />
+        <h5 class="final-choice-player-text"></h5>
+      </div>
+
+      <div class="scoreboard-container">
+        <div class="scoreboard">
+          <span class="player-score">0</span>
+          <div class="score-separator"></div>
+          <span class="computer-score">0</span>
+        </div>
+
+        <h4 class="marker">marcador</h4>
+
+        <div class="choices-separator-container">
+          <div class="choices-separator"></div>
+          <span style="display: none" class="game-result"></span>
+        </div>
+      </div>
+
+      <div class="computer-container">
+        <div style="display: none" class="final-choice-computer">
+          <img class="final-choice-computer-img" src="" alt="" />
+          <h5 class="final-choice-computer-text"></h5>
+        </div>
+
+        <div class="computer-container-title">
+          <h2 class="computer-title">Computadora</h2>
+        </div>
+
+        <img class="computer-choice" id="paper" src="./files/Paper.png" alt="Papel-Image" />
+        <img class="computer-choice" id="rock" src="./files/Rock.png" alt="Rock-Image" />
+        <img class="computer-choice" id="scissors" src="./files/Scissors.png" alt="Scissors-Image" />
+      </div>
+
+    </main>
+
+    <script type="module" src="script.js"></script>
+
+  </body>
+</html>

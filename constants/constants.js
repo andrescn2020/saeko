@@ -1,0 +1,9 @@
+export const choices = document.querySelectorAll(".player-choice");
+export const playerScore = document.querySelector(".player-score");
+export const computerScore = document.querySelector(".computer-score");
+export const rockImage = "./files/Rock.png";
+export const paperImage = "./files/Paper.png";
+export const scissorsImage = "./files/Scissors.png";
+export const rockAlt = "Rock Image";
+export const paperAlt = "Paper Image";
+export const scissorsAlt = "Scissors Image";
